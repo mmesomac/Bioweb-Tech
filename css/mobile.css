@@ -32,9 +32,31 @@
     padding: 0.5rem;
   }
 
+  #showcase {
+    height: 60vh;
+  }
+
   #showcase .showcase-content {
     top: 110px;
+    /* display: none; */
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    height: 50%;
+  }
+
+  .showcase-text {
+    font-size: 2rem;
+  }
+
+  .showcase-btn {
     display: none;
+  }
+
+  .showcase-content h1 {
+    font-size: 1.2rem;
+  }
+
+  .showcase-content h4 {
+    font-size: 0.8rem;
   }
 
   #who {

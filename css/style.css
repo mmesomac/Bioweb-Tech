@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 * {
   box-sizing: border-box;
@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.4;
 }
 
@@ -117,7 +117,7 @@ p {
 
 .main-color {
   color: #007bff;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .t-large {
@@ -166,7 +166,7 @@ p {
 }
 /* Showcase */
 #showcase {
-  background: #333 url("../img/showcase.jpg") no-repeat center center/cover;
+  background: #333 url('../img/showcase.jpg') no-repeat center center/cover;
   height: 100vh;
   color: #fff;
 }
@@ -222,7 +222,7 @@ p {
 }
 
 #who .who-img {
-  background: url("../img/people.jpg") no-repeat center center/cover;
+  background: url('../img/people.jpg') no-repeat center center/cover;
 }
 
 /* Section: Clients */
@@ -418,7 +418,7 @@ section .section-title {
   position: relative;
 }
 .content .left-side::before {
-  content: "";
+  content: '';
   position: absolute;
   height: 70%;
   width: 2px;
@@ -479,7 +479,7 @@ section .section-title {
   display: inline-block;
   margin-top: 12px;
 }
-.right-side .button input[type="button"] {
+.right-side .button input[type='button'] {
   color: #fff;
   font-size: 18px;
   outline: none;
@@ -490,7 +490,7 @@ section .section-title {
   transition: all 0.3s ease;
   cursor: pointer;
 }
-.button input[type="button"]:hover {
+.button input[type='button']:hover {
   background: #07386d;
 }
 
@@ -571,7 +571,7 @@ footer .content .middle {
 footer .content .middle a {
   line-height: 32px;
 }
-footer .content .right input[type="text"] {
+footer .content .right input[type='text'] {
   height: 45px;
   width: 100%;
   outline: none;
@@ -583,7 +583,7 @@ footer .content .right input[type="text"] {
   border: 2px solid #222222;
 }
 
-footer .content .right input[type="submit"] {
+footer .content .right input[type='submit'] {
   height: 42px;
   width: 100%;
   font-size: 18px;
@@ -597,7 +597,7 @@ footer .content .right input[type="submit"] {
   border: 2px solid #eb2f06;
   transition: all 0.3s ease-in-out;
 }
-footer .content .right input[type="submit"]:hover {
+footer .content .right input[type='submit']:hover {
   background: none;
   color: #eb2f06;
 }
